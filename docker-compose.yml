@@ -11,7 +11,7 @@ services:
     environment:
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: root
-      POSTGRES_DB: database_class
+      POSTGRES_DB: test_db
     ports:
       - "5433:5432"
     volumes:
