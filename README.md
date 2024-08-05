@@ -68,7 +68,8 @@ To verify that the installation has completed successfully and PostgreSQL is run
    - Username: `admin`
    - Password: `root`
      
-   <img width="722" alt="image" src="https://github.com/TendonT52/postgreSQL-pgAdmin-installation-guide/assets/88754538/853f62a4-0e0e-4ee6-8df8-a586061247b9">
+   <img width="436" alt="image" src="https://github.com/user-attachments/assets/c4795748-bc02-4510-b28d-fe2a9781c0b0">
+
 
 7. Click the "Save" button to add the server.
 
