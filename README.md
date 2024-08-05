@@ -65,14 +65,14 @@ To verify that the installation has completed successfully and PostgreSQL is run
 
    - Host name/address: `db`
    - Port: `5432`
-   - Username: `root`
+   - Username: `admin`
    - Password: `root`
      
    <img width="722" alt="image" src="https://github.com/TendonT52/postgreSQL-pgAdmin-installation-guide/assets/88754538/853f62a4-0e0e-4ee6-8df8-a586061247b9">
 
 7. Click the "Save" button to add the server.
 
-8. In the pgAdmin interface, navigate to `Server -> db -> Database -> test_db`. Right-click on the `test_db` database and select "Query Tool" to open a new tab.
+8. In the pgAdmin interface, navigate to `Server -> db -> Database -> database_class`. Right-click on the `database_class` database and select "Query Tool" to open a new tab.
 
    <img width="436" alt="image" src="https://github.com/TendonT52/postgreSQL-pgAdmin-installation-guide/assets/88754538/0a4fd963-beb7-4d61-82e4-2cac697306ad">
 
@@ -93,7 +93,7 @@ CREATE TABLE accounts (
 
 9. Execute the query by clicking the "Execute" button or pressing `F5`.
 
-10. To ensure that the table was created successfully, navigate to `Server -> db -> Database -> test_db -> Schemas -> public -> Tables`. You should see the `accounts` table listed.
+10. To ensure that the table was created successfully, navigate to `Server -> db -> Database -> database_class -> Schemas -> public -> Tables`. You should see the `accounts` table listed.
     
    <img width="389" alt="image" src="https://github.com/TendonT52/postgreSQL-pgAdmin-installation-guide/assets/88754538/c2d7d268-69b2-4631-a70e-1f2a53388192">
 
